@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Metode"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <TextView
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pilih metode untuk perhitungan Depresiasi"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_straight_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#fbc238"
+            android:text="Straight Line"/>
+        <Button
+            android:id="@+id/btn_decline_balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#fbc238"
+            android:text="Declining Balance"/>
+        <Button
+            android:id="@+id/btn_double_decline_balance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#fbc238"
+            android:text="Double Declining Balance"/>
+        <Button
+            android:id="@+id/btn_unit_of_production"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#fbc238"
+            android:text="Unit of Production"/>
+        <Button
+            android:id="@+id/btn_sum_of_the_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#fbc238"
+            android:text="Sum of the year"/>
+
+    </LinearLayout>
+
+</LinearLayout>
